@@ -5,7 +5,7 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.tools import tool
-from langchain.agents import create_agent
+# from langchain.agents import create_agent
 
 class GlobalStore:
     v_store = None
